@@ -1,0 +1,55 @@
+[26-Apr-2023 11:22:31 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 2
+[26-Apr-2023 11:22:31 UTC] PHP Warning:  file_get_contents(https://onsite.trustwise.com/services/BTGroupPlcB2BOpenreachG3/digitalidCenter.htm): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 2
+[26-Apr-2023 11:28:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function callAPI() in /home/thamesoptic/public_html/service/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thamesoptic/public_html/service/index.php on line 2
+[27-Apr-2023 03:06:12 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:06:12 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:06:12 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:06:32 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:06:32 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:06:32 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:10:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_get_file_contents() in /home/thamesoptic/public_html/service/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:14:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_get_file_contents() in /home/thamesoptic/public_html/service/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:46:40 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:46:40 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:46:40 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:48:26 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:48:26 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:48:26 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:48:31 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:48:31 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:48:31 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:50:19 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:50:19 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:50:19 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:51:21 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:51:21 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:51:21 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:51:37 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:51:37 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:51:37 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:54:53 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:54:53 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:54:53 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:55:06 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:55:06 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:55:06 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:58:44 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:58:44 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:58:44 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:58:45 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:58:45 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:58:45 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 03:58:51 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:58:51 UTC] PHP Warning:  file_get_contents(https://www.orxmlgcvf.openreach.co.uk:9443/emp/4400/AddressMatching): failed to open stream: no suitable wrapper could be found in /home/thamesoptic/public_html/service/index.php on line 6
+[27-Apr-2023 03:58:51 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/thamesoptic/public_html/service/index.php on line 15
+[27-Apr-2023 18:32:47 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/thamesoptic/public_html/service/index.php on line 16
+[27-Apr-2023 18:32:47 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/thamesoptic/public_html/service/index.php on line 17
