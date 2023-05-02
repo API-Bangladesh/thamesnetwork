@@ -68,6 +68,7 @@ while($row=mysqli_fetch_array($ret))
 	     <title><?php echo htmlentities($row['productName']);?>  </title>
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">

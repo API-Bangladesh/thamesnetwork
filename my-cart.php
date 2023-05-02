@@ -101,6 +101,7 @@ echo "<script>alert('Shipping Address has been updated');</script>";
 	    <title>My Cart</title>
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">

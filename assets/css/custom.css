@@ -1,0 +1,141 @@
+.main-header .logo-holder {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.top-cart-row {
+  padding-top: 0;
+  margin-bottom: 12px;
+}
+
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket-item-count {
+  right: -12px;
+  top: -6px;
+}
+
+.info-boxes {
+  margin: 40px 0;
+}
+
+.info-boxes .bg-img-1 {
+  background-image: url('https://www.uatg.com/assets/img/bg-shapes/bg3.png');
+  background-size: contain;
+}
+
+.info-boxes .bg-img-2 {
+  background-image: url('https://www.uatg.com/assets/img/bg-shapes/bg3.png');
+  background-size: contain;
+}
+
+.info-boxes .bg-img-3 {
+  background-image: url('https://www.uatg.com/assets/img/bg-shapes/bg3.png');
+  background-size: contain;
+}
+
+.info-boxes .info-box {
+  padding: 20px 18px;
+  min-height: 217px;
+}
+
+#service {
+  margin: 30px 0 70px;
+}
+
+#service .service-box-area {
+  text-align: center;
+}
+
+#service .service-box-area img {
+  width: auto;
+  max-width: 100%;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+#service .service-box-area h4 {
+  text-align: center;
+  font-size: 22px;
+}
+
+#feature {
+  margin-bottom: 40px;
+}
+
+#feature .feature-inner {
+  margin-top: 35px;
+}
+
+#feature .feature-inner .feature-item {
+  min-height: 165px;
+}
+
+#feature .feature-inner img {
+  height: 50px;
+}
+
+.order {
+  margin-bottom: 40px;
+}
+
+.postcode-check {
+  margin: 50px 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.postcode-check #errMessage {
+  display: none;
+  background-color: #f20a5b;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 20px;
+  margin-bottom: 2px;
+}
+
+.postcode-check h3 {
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.postcode-check label {
+  font-weight: lighter;
+}
+
+.postcode-check form {
+  border: 1px solid #DDDDDD;
+  padding: 20px 40px;
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--_MCEk7P6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vm957e5dm3hxnwc94dd7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.postcode-check form input,
+.postcode-check form button {
+  border-radius: 0;
+}
+
+.postcode-check form .form-control {
+  height: 45px;
+  padding: 13px 40px;
+  outline: none;
+  border: none;
+}
+
+.postcode-check form button {
+  outline: none;
+  border: none;
+  padding: 13px 27px;
+  background-color: #f20a5b;
+}
+
+.footer .links-social {
+  margin-bottom: 40px;
+}
+
+.trustpilot-widget {
+  /*margin-bottom: 30px !important;*/
+}
