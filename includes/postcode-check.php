@@ -5,16 +5,16 @@
                 <div id="errMessage"></div>
                 <form class="form-inline" onsubmit="onSubmitHandler(event)">
                     <div class="row" style="display:flex; align-items: center;">
-                        <div class="col-md-5">
-                            <h3>Find by Postcode</h3>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="txtPostcode"
-                                       placeholder="Eg. WC1H 9NP">
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-default">Find</button>
+                        <div class="col-md-12">
+                            <div style="display:flex; align-items: center; justify-content: center;">
+                                <h3 style="margin-right: 15px;">Find by Postcode</h3>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="txtPostcode"
+                                           placeholder="Eg. WC1H 9NP">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default">Find</button>
+                                </div>
                             </div>
                         </div>
                     </div>
