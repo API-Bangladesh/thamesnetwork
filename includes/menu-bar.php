@@ -2,7 +2,8 @@
     <div class="container">
         <div class="yamm navbar navbar-default" role="navigation">
             <div class="navbar-header">
-                <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse"
+                        class="navbar-toggle collapsed" type="button">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -11,45 +12,38 @@
             </div>
             <div class="nav-bg-class">
                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
-    <div class="nav-outer">
-        <ul class="nav navbar-nav">
-            <!--<li class="active dropdown yamm-fw">
-                <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Home</a>
-                
-            </li>-->
+                    <div class="nav-outer">
+                        <ul class="nav navbar-nav">
+                            <!--<li class="active dropdown yamm-fw">
+                                <a href="index.php" data-hover="dropdown" class="dropdown-toggle">Home</a>
 
-            
+                            </li>-->
 
 
+                            <?php $sql = mysqli_query($con, "select id,categoryName  from category limit 6");
+                            while ($row = mysqli_fetch_array($sql)) {
+                                ?>
 
-              <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
-while($row=mysqli_fetch_array($sql))
-{
-    ?>
+                                <li class="dropdown yamm">
+                                    <a href="category.php?cid=<?php echo $row['id']; ?>"> <?php echo $row['categoryName']; ?></a>
 
-            <li class="dropdown yamm">
-                <a href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
-            
-            </li>
-            <?php } ?>
-            <li class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i class="fa fa-angle-down"></i></a>
-                          <ul class="dropdown-menu" role="menu">
-                            <li><a href="aboutus.php">About Us</a></li>
-                            <li><a href="privacy.php">Privacy</a></li>
-                            <li><a href="termscondition.php">Testimonials</a></li>
-                            <li><a href="customersupport.php">Faq</a></li>
-                            
-                          </ul>
-                      </li>
+                                </li>
+                            <?php } ?>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i
+                                            class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="aboutus.php">About Us</a></li>
+                                    <li><a href="privacy.php">Privacy</a></li>
+                                    <li><a href="termscondition.php">Testimonials</a></li>
+                                    <li><a href="customersupport.php">Faq</a></li>
 
-            
-        </ul><!-- /.navbar-nav -->
-        <div class="clearfix"></div>                
-    </div>
-</div>
-
-
+                                </ul>
+                            </li>
+                        </ul><!-- /.navbar-nav -->
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

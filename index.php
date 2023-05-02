@@ -237,15 +237,6 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
         </div><!-- /.owl-carousel -->
     </div>
 
-    <div class="div" style="margin-top: 15px;">
-        <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad"
-             data-businessunit-id="61941a00c6072dd796ab14ad" data-style-height="24px"
-             data-style-width="100%" data-theme="light" data-min-review-count="10"
-             data-without-reviews-preferred-string-id="1" data-style-alignment="center">
-            <a href="https://uk.trustpilot.com/review/thamesoptic.com" target="_blank" rel="noopener">Trustpilot</a>
-        </div>
-    </div>
-
     <!--Postcode Check-->
     <?php include 'includes/postcode-check.php' ?>
 
@@ -312,6 +303,17 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
                 </div><!-- /.homebanner-holder -->
             </div><!-- /.row -->
 
+            <!--Trustpilot-->
+            <div style="margin-bottom: 40px;">
+                <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad"
+                     data-businessunit-id="61941a00c6072dd796ab14ad" data-style-height="24px"
+                     data-style-width="100%" data-theme="light" data-min-review-count="10"
+                     data-without-reviews-preferred-string-id="1" data-style-alignment="center">
+                    <a href="https://uk.trustpilot.com/review/thamesoptic.com" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+            </div>
+
+            <!--Service-->
             <div id="service" class="service-area">
                 <div class="container-fluid">
                     <div class="row">
